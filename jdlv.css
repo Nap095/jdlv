@@ -1,0 +1,79 @@
+.tableau {
+    display: grid;
+    grid-template-columns: repeat(20,10px);
+    grid-template-rows: repeat(20, 10px);
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.statscellules {
+    border: 1px solid rgb(12, 11, 11);
+    border-collapse: collapse;
+}
+
+.thsc, .tdsc {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.cellule {
+    width: 10px;
+    height: 10px;
+}
+
+.vivant1 {
+    background-color: #004ba1;
+}
+
+.vivant2 {
+    background-color: #1675d2;
+}
+
+.vivant3 {
+    background-color: #3b97f3;
+}
+
+.vivant4 {
+    background-color: #54a9fe;
+}
+
+.vivant5 {
+    background-color: #82c91b;
+}
+
+.vivant6 {
+    background-color: #afc91b;
+}
+
+.vivant7 {
+    background-color: #facb4a;
+}
+
+.vivant8 {
+    background-color: #f98925;
+}
+
+.vivant9 {
+    background-color: #eb670b;
+}
+
+.vivant10 {
+    background-color: #d32020;
+}
+
+.rien {
+    background-color: #eeeed2;
+}
+
+.form-group {
+    display: flex;
+    align-items: center; /* Alignement vertical des éléments */
+    margin-bottom: 5px; /* Espace entre les groupes de formulaire */
+}
+
+label {
+    width: 150px; /* Largeur fixe pour tous les labels */
+    margin-right: 10px; /* Espace entre le label et le champ de texte */
+}

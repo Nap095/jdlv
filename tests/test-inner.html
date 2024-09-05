@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Exemple d'écriture dans une div</title>
+</head>
+<body>
+
+<!-- Voici la div où nous allons écrire les données -->
+<div id="maDiv"></div>
+
+<script>
+// On récupère l'élément div par son ID
+var maDiv = document.getElementById('maDiv');
+
+// On écrit du HTML dans la div
+maDiv.innerHTML = 'Bonjour, voici du contenu <strong>HTML</strong> avec des balises!';
+</script>
+
+</body>
+</html>

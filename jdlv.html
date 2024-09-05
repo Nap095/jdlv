@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jdlv.js"></script>
+    <link rel="stylesheet" href="jdlv.css" type="text/css">
+</head>
+<body>
+    <div class="form-group">
+        <label for="lignes">Nombre de lignes</label>
+        <input type="text" id="nblignes" name="nblignes">
+    </div>
+
+    <div class="form-group">
+        <label for="colonnes">Nombre de colonnes</label>
+        <input type="text" id="nbcolonnes" name="nbcolonnes">
+    </div>
+
+    <div class="form-group">
+        <label for="lignes">Temporisation</label>
+        <input type="text" id="tempo" name="tempo">millisecondes
+    </div>
+
+    <div class="form-group">
+        <label for="lignes">Modèles de départ</label>
+        <select id="maListbox"></select>
+        <button onclick="applique_modele()">Appliquer</button>
+    </div>
+
+    <div class="form-group">
+        <button onclick="demarrer()">Démarrer</button>
+        <button onclick="arreter()">Arrêter</button>
+        <button onclick="une_iteration()">Une itération</button>
+        <button onclick="reinitialiser()">Réinitialiser</button>    
+    </div>
+
+
+    <div id="tableau" class="tableau"></div>
+
+    <div id="comment" class="comment"></div>
+
+    <div id="statistiques" class="statistiques"></div>
+    <div id="statistiques1" class="statistiques1"></div>
+    <table id="statscellules" class="statscellules">
+        <tr>
+            <th class="thsc">Age</th>
+            <th class="thsc">Nombre</th>
+        </tr>
+        <tr>
+            <td class="tdsc">1</td>
+            <td class="tdsc"></td>
+        </tr>
+        <tr>
+            <td class="tdsc">2</td>
+            <td class="tdsc"></td>
+        </tr>
+        <tr>
+            <td class="tdsc">3</td>
+            <td class="tdsc"></td>
+        </tr>
+        <tr>
+            <td class="tdsc">4</td>
+            <td class="tdsc"></td>
+        </tr>
+        <tr>
+            <td class="tdsc">5</td>
+            <td class="tdsc"></td>
+        </tr>
+        <tr>
+            <td class="tdsc">6</td>
+            <td class="tdsc"></td>
+        </tr>
+        <tr>
+            <td class="tdsc">7</td>
+            <td class="tdsc"></td>
+        </tr>
+        <tr>
+            <td class="tdsc">8</td>
+            <td class="tdsc"></td>
+        </tr>
+        <tr>
+            <td class="tdsc">9</td>
+            <td class="tdsc"></td>
+        </tr>
+        <tr>
+            <td class="tdsc">10+</td>
+            <td class="tdsc"></td>
+        </tr>
+    </table>
+
+</body>
+</html>
